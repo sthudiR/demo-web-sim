@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#0f1419"/>
+  <circle cx="610" cy="120" r="46" fill="#e6edf3"/>
+  <circle cx="632" cy="108" r="42" fill="#0f1419"/>
+  <circle cx="150" cy="110" r="22" fill="#f2c14e"/>
+  <path d="M0 300 Q100 260 200 300 T400 300 T600 300 T800 300 V500 H0Z" fill="#3fb8af"/>
+  <path d="M0 360 Q100 325 200 360 T400 360 T600 360 T800 360 V500 H0Z" fill="#2a8f88"/>
+  <path d="M0 430 Q200 400 400 430 T800 430 V500 H0Z" fill="#e0c48a"/>
+  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="56" font-weight="700" fill="#e6edf3">Pocket Tides</text>
+</svg>

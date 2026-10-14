@@ -1,0 +1,9 @@
+{
+  "id": "demo-web-sim",
+  "title": "Pocket Tides",
+  "blurb": "Slide the moon closer, change its phase, line up the sun, and watch a 3D shoreline rise and fall with a live tide calculator.",
+  "framework": "Vite + React + three.js",
+  "tags": ["simulation", "3d", "science", "tides"],
+  "url": "https://sthudir.github.io/demo-web-sim/",
+  "thumbnail": "thumbnail.svg"
+}
