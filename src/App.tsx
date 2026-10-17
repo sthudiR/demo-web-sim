@@ -183,6 +183,7 @@ export default function App() {
   return (
     <div className="app">
       <header>
+        <a className="back-link" href="https://sthudir.github.io/demo-web-hub/">&larr; Back to demo-web hub</a>
         <h1>Pocket Tides</h1>
         <p className="muted">Move the moon, turn the sun, and watch the shoreline answer.</p>
         <nav aria-label="Sections">
