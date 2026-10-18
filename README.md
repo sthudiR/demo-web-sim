@@ -32,3 +32,6 @@ The site is served under `/demo-web-sim/` (`base` in `vite.config.ts`). Tabs use
 
 The Video tab (`src/App.tsx`, `Video` component) uses
 `https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ` in a responsive 16:9 lazy-loaded iframe. Change the id there.
+
+## Licence
+Public domain (CC0). Everything here is made up for a demo; use and share it freely. See `LICENSE`.
