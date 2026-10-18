@@ -21,6 +21,22 @@ const readHash = (): TabId => {
 
 const DEFAULTS: TideParams = { moonKm: 384400, moonAge: 0, sunAlign: 100 };
 
+function Behind() {
+  return (
+    <details className="behind">
+      <summary>Behind this page</summary>
+      <dl>
+        <dt>Built with</dt><dd>Vite 5, React 18, TypeScript and three.js (via react-three-fiber)</dd>
+        <dt>The numbers</dt><dd>2.4 MB &middot; ready in about 0.6 s &middot; builds in 21 s &middot; 465 lines of source &middot; you write TypeScript</dd>
+        <dt>Good for</dt><dd>Real-time 3D you can steer with sliders</dd>
+        <dt>Not for</dt><dd>Quick lessons: it is the most code of the six</dd>
+        <dt>More</dt><dd><a href="https://github.com/sthudiR/demo-web-sim">Source on GitHub</a> &middot; <a href="https://sthudir.github.io/demo-web-hub/which/">What can I use for&hellip;?</a> &middot; <a href="https://sthudir.github.io/demo-web-hub/">Back to hub</a></dd>
+      </dl>
+      <p className="muted small">Ready time: median of 3 cold loads, 17 Oct 2026, one home connection.</p>
+    </details>
+  );
+}
+
 function Slider(props: {
   label: string; value: number; min: number; max: number; step: number; unit: string;
   onChange: (v: number) => void; id: string;
@@ -193,6 +209,7 @@ export default function App() {
         </div>
         <h1>Pocket Tides</h1>
         <p className="muted">Move the moon, turn the sun, and watch the shoreline answer.</p>
+        <p className="try"><strong>Try this:</strong> pull the moon distance to its smallest value. How much higher does the water get?</p>
         <nav aria-label="Sections">
           {TABS.map((t) => (
             <a key={t.id} href={`#/${t.id}`} className={t.id === tab ? 'active' : ''} aria-current={t.id === tab ? 'page' : undefined}>{t.label}</a>
@@ -205,6 +222,7 @@ export default function App() {
         {tab === 'video' && <Video />}
       </main>
       <footer className="muted small">A simplified teaching model (M2 and S2 only). Real tides depend on coastline and many more constituents.</footer>
+      <Behind />
     </div>
   );
 }

@@ -3,7 +3,23 @@
   "title": "Pocket Tides",
   "blurb": "Slide the moon closer, change its phase, line up the sun, and watch a 3D shoreline rise and fall with a live tide calculator.",
   "framework": "Vite + React + three.js",
-  "tags": ["simulation", "3d", "science", "tides"],
+  "tags": [
+    "simulation",
+    "3d",
+    "science",
+    "tides"
+  ],
   "url": "https://sthudir.github.io/demo-web-sim/",
-  "thumbnail": "thumbnail.svg"
+  "thumbnail": "thumbnail.svg",
+  "kind": "piece",
+  "preview": "preview",
+  "metrics": {
+    "size": "2.4 MB",
+    "ready": "0.6 s",
+    "writes": "TypeScript",
+    "build": "21 s",
+    "lines": 465
+  },
+  "goodFor": "Real-time 3D you can steer with sliders.",
+  "notFor": "Quick lessons: it is the most code of the six."
 }
