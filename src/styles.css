@@ -43,3 +43,9 @@ footer { margin-top: 1.5rem; }
 .hub-btn:hover { background: var(--dw-accent); color: var(--dw-on-accent); border-color: var(--dw-accent); }
 .gh-link { display: inline-flex; color: var(--dw-fg); }
 .gh-link:hover { color: var(--dw-accent); }
+
+.try{margin:6px 0 0;padding:8px 12px;border:1px solid var(--dw-border);border-left:3px solid var(--dw-accent);border-radius:8px}
+.behind{margin-top:1rem;padding:10px 16px;border:1px solid var(--dw-border);border-radius:var(--dw-radius)}
+.behind summary{cursor:pointer;font-weight:600}
+.behind dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:12px 0 4px}
+.behind dt{color:var(--dw-muted)}.behind dd{margin:0}
