@@ -184,7 +184,7 @@ function Video() {
           allowFullScreen
         />
       </div>
-      <p className="muted small">Placeholder video: it&apos;s here to show how embedding works in this framework.</p>
+      <p className="muted small">Placeholder video: it's here to show how embedding works in this framework.</p>
     </section>
   );
 }
