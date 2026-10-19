@@ -184,7 +184,7 @@ function Video() {
           allowFullScreen
         />
       </div>
-      <p className="muted small">Placeholder clip, shown through the privacy-enhanced YouTube player.</p>
+      <p className="muted small">Placeholder video: it&apos;s here to show how embedding works in this framework.</p>
     </section>
   );
 }
