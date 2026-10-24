@@ -27,12 +27,12 @@ function Behind() {
       <summary>Behind this page</summary>
       <dl>
         <dt>Built with</dt><dd>Vite 5, React 18, TypeScript and three.js (via react-three-fiber)</dd>
-        <dt>The numbers</dt><dd>2.4 MB &middot; ready in about 0.6 s &middot; builds in 21 s &middot; 465 lines of source &middot; you write TypeScript</dd>
+        <dt>The numbers</dt><dd>414 KB to load &middot; ready in about 0.4 s &middot; builds in 19 s &middot; 483 lines of source &middot; you write TypeScript</dd>
         <dt>Good for</dt><dd>Real-time 3D you can steer with sliders</dd>
         <dt>Not for</dt><dd>Quick lessons: it is the most code of the six</dd>
         <dt>More</dt><dd><a href="https://github.com/sthudiR/demo-web-sim">Source on GitHub</a> &middot; <a href="https://sthudir.github.io/demo-web-hub/which/">Pick your tool</a> &middot; <a href="https://sthudir.github.io/demo-web-hub/">Back to hub</a></dd>
       </dl>
-      <p className="muted small">Ready time: median of 3 cold loads, 17 Oct 2026, one home connection.</p>
+      <p className="muted small">Ready time: median of 5 cold loads on one home connection, 23 Oct 2026. Size is what a first visit downloads. Build time is the median of the last 5 GitHub Actions builds and includes installing the tools.</p>
     </details>
   );
 }

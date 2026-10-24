@@ -14,11 +14,11 @@
   "kind": "piece",
   "preview": "preview",
   "metrics": {
-    "size": "2.4 MB",
-    "ready": "0.6 s",
+    "size": "414 KB",
+    "ready": "0.4 s",
     "writes": "TypeScript",
-    "build": "21 s",
-    "lines": 465
+    "build": "19 s",
+    "lines": 483
   },
   "goodFor": "Real-time 3D you can steer with sliders.",
   "notFor": "Quick lessons: it is the most code of the six."
